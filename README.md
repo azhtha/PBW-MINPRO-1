@@ -22,11 +22,11 @@
 
 <img width="1334" height="583" alt="Screenshot 2026-02-27 215443" src="https://github.com/user-attachments/assets/33292451-33aa-464d-97ff-2720ac1b01fd" />
   
-- **About:** Berisi gambar profil + deskripsi diri.
+- **About:** Berisi gambar profil dan deskripsi diri.
 
 <img width="1337" height="577" alt="Screenshot 2026-02-27 215535" src="https://github.com/user-attachments/assets/0355ed34-c70b-4955-a791-db0ab9b06e44" />
 
-- **Skills:** Section  dengan progress bar kustom
+- **Skills:** Section dengan progress bar
 
 <img width="1329" height="567" alt="Screenshot 2026-02-27 215600" src="https://github.com/user-attachments/assets/0034148e-6749-4044-b0b4-014c0caf2f45" />
 
