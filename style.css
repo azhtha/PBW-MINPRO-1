@@ -49,6 +49,8 @@ body {
     display: flex;
     gap: 30px;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-menu li {
