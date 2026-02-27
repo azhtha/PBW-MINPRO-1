@@ -59,7 +59,6 @@ body {
     color: #ff3f8e;
 }
 
-/* HERO */
 .hero {
     background: linear-gradient(to right, #ffe4ec, #fff5f9);
     padding: 100px 0;
@@ -72,7 +71,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* SECTION */
 .section {
     padding: 80px 0;
     background: white;
@@ -85,44 +83,7 @@ body {
 .section-title {
     text-align: center;
     margin-bottom: 50px;
-}
-
-/* ABOUT */
-.about-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-}
-
-.about-text h2 {
-    margin-bottom: 20px;
     color: #ff6fa5;
-}
-
-.about-image img {
-    width: 60%;
-    border-radius: 20px;
-}
-
-/* SKILLS */
-.skills-container h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    color: #ff6fa5;
-}
-
-/* soft matcha background utility (formerly strawberry) */
-.bg-strawberry {
-    background: #c8e6c9; /* soft matcha-green tone */
-    color: #2e4d2b; /* darker green for readability */
-}
-
-/* ensure text remains readable on colored background */
-.bg-strawberry .section-title,
-.bg-strawberry h3,
-.bg-strawberry span {
-    color: #2e4d2b;
 }
 
 .skill-item {
@@ -147,7 +108,17 @@ body {
     background: linear-gradient(to right, #ff9ecb, #ff6fa5);
 }
 
-/* CARDS */
+.bg-strawberry {
+    background: #c8e6c9;
+    color: #2e4d2b;
+}
+
+.bg-strawberry .section-title,
+.bg-strawberry h3,
+.bg-strawberry span {
+    color: #2e4d2b;
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -171,18 +142,7 @@ body {
     color: #ff6fa5;
 }
 
-.card-sub {
-    font-size: 0.9rem;
-    color: #a68a99;
-    margin-bottom: 10px;
-}
-
-/* RESPONSIVE */
 @media (max-width: 900px) {
-    .about-container {
-        grid-template-columns: 1fr;
-    }
-
     .card-grid {
         grid-template-columns: 1fr 1fr;
     }
